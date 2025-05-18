@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>My First Form</h2>
+    <form>
+        <div> <!--Container Δομικό στοιχείο της HTML για CSS Styling-->
+            <input type="radio" name="gender" value="male" id="male" checked>   <!--Φορμα με επιλογή-->
+            <label for="male">Άνδρας</label> 
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Γυναίκα</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="vehicle1" value="bike" id="bicycle" checked>
+            <label for="bicycle">Ποδήλατο</label>
+            <input type="checkbox" name="vehicle2" value="motorcycle" id="motorcycle">
+            <label for="motorcycle">Μοτοσυκλέτα</label>
+            <input type="checkbox" name="vehicle3" value="car" id="car">
+            <label for="car">Αυτοκίνητο</label>
+        </div>
+        <br>
+        <div>
+            <label for="nationality">Υπηκοότητα</label>
+            <select name="nationality" id="nationality">
+                <option value="" disabled hidden selected>Επιλέξτε Υπηκοότητα</option>
+                <option value="greek">Ελλάδα</option>
+                <option value="english">Αγγλία</option>
+                <option value="spanish">Ισπανία</option>
+            </select>
+        </div>
+        <br>
+        <fieldset>
+            <legend>Προσωπικά Στοιχεία</legend>
+            <div>
+                <label for="firstname">Όνομα*</label>
+                <input type="text" name="firstname" id="firstname" required minlength="5" maxlength="20" placeholder="Συμπληρώστε Όνομα ">
+            </div>
+            <div>
+                <label for="lastname">Επώνυμο</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <div>
+                <label for="workExprerience">Εργασιακή Εμπειρία</label>
+                <input type="number" name="workExprerience" id="workExprerience" min="3" max="20">
+            </div>
+            <div>
+                <label for="bday">Ημερομηνία Γέννησης</label>
+                <input type="date" name="bday" id="bday">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <label for="message">Γράψτε το μήνυμα σας</label>
+            <textarea name="message" id="message" rows="10" cols="30"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+        
+        
+        <header></header>
+        <nav>Navigation Menu</nav>
+        <section><!-- Υλοποίηση κώδικα --></section>
+        <footer>Footer</footer>
+    </form> 
+    
+    
+</body>
+</html>

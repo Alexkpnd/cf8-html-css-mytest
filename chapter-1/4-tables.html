@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</Table></title>
+</head>
+<body>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+    <h3>Tables in HTML</h3>
+
+    <table> <!-- Create Table -->
+        <caption>Lessons Program</caption>
+        <tr>
+            <td>Μάθημα</td>
+            <td>Καθηγητής</td>
+            <td>Ημέρα/Ώρα</td>
+        </tr>
+        <tr>   <!-- Table Row -->
+            <td>Programming</td> <!-- Table Data-->
+            <td>Θανάσης</td>
+            <td>Monday 18:00 - 21:00</td>
+            <!-- <td>Test</td> -->
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Μάρκος</td>
+            <td>Thursday 18:00 - 21:00 </td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <caption>Table with Headers</caption>
+        <tr>
+            <th>Lesson</th>  <!-- Table Header -->
+            <th>Teacher</th>
+            <th>Day/Time</th>
+
+        <tr>
+            <td>Java</td>
+            <td>Thanassis</td>
+            <td>Monday 18:00 - 21:00</td>
+        </tr>
+
+        </tr>
+    </table>
+    <br>
+    <table>
+        <caption> Table with thead, tbody, tfoot</caption> <!-- Βοηθάει όταν τραβάμε πίνακα από βάση δεδομένων-->
+        <thead>
+            <tr>
+            <th>Lesson</th>
+            <th>Teacher</th>
+            <th>Day</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Java</td>
+                <td>Thanassis</td>
+                <td>Monday</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Markos</td>
+                <td>Thursday</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Programming</td>
+            <td>Coding Factory</td>
+            <td>Days</td>
+        </tfoot>
+    </table>
+    <br>
+    <table>
+        <caption>Table Colspan</caption>
+        <thead>
+            <tr>
+                <th>Lesson</th>
+                <th>Teacher</th>
+                <th>Day</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- <td>Learning Programming</td>
+                <td>-</td>
+                <td>-</td> -->
+                <td colspan="3">Learning Programming</td> <!-- Συγχώνευση Κελιών-->
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Thanassis</td>
+                <td>Monday</td>
+            </tr>
+            <tr>
+                <td rowspan="2">HTML</td>
+                <td rowspan="2">Markos</td>
+                <td>Thursday</td>
+            </tr>
+            <tr>
+                <!-- <td>HTML</td> -->
+                <!-- <td>Markos</td> -->
+                <td>Friday</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+
+
+
+
+
+    <!-- table>tr*3>td*4 -->
+<table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+</table>
+
+<!-- Επιλογή πολλαπλών γραμμών σε πίνακες
+    1. alt + mouse click
+    2. ctrl + alt + down arrow από πληκτρολόγιο
+-->
+</body>
+</html>
