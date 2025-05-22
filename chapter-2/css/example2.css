@@ -2,7 +2,7 @@ body {
     background-color: lightgrey;
 }
 
-p, li {
+p {
     color: white;
     background-color: pink;
 }
@@ -31,4 +31,47 @@ p.aueb-logo {
 
 #auebText {
     border: 2px solid green;
+}
+
+ul > li {
+    color: blue;
+}
+
+ul strong {
+    background-color: aqua;
+}
+
+ul em {
+    background-color: beige;
+}
+
+ul {
+    background-color: blueviolet;
+}
+
+li {
+    background-color: blueviolet;
+}
+/* Στην συγκεκριμενη σειρά για να παίξει το css. Να θυμάμαι το (l)o(v)e (f)ear (h)(a)te */
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:focus {
+    outline:  none;
+    background-color: red;
+}
+
+a:hover {
+    background-color: green;
+}
+
+a:active {
+    background-color: orange;
+    color: white;
 }
