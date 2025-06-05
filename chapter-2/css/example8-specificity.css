@@ -1,0 +1,19 @@
+p {
+    color: blue;
+}
+
+#textColor {
+    color: blueviolet;
+}
+
+.text-color {
+    color: green;
+}
+
+p {
+    color: red;
+}
+
+/* !important και βάζει αυτό που θεωρώ εγώ ως important */
+
+/* ΠΟΤΕ τα id για styling !!  */
